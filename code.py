@@ -10,8 +10,9 @@ GPIO.setup(13,GPIO.IN)
 GPIO.setup(15,GPIO.IN)
 GPIO.setup(16,GPIO.IN)
 GPIO.setup(18,GPIO.IN)
-GPIO.setup(23,GPIO.OUT)import RPi.GPIO as GPIO import time
+GPIO.setup(23,GPIO.OUT)
 
+import RPi.GPIO as GPIO import time
 import pygame
 pygame.mixer.init()
 
