@@ -55,7 +55,9 @@ while 1:
 	if GPIO.input(18): a7=1
 	else:	a7=0
 		
-	x = a1*1 + a2*4 + a2*8 + a3*16 + a4*32 + a5*64 + a6*128 + a7*255if x<42:
+	x = a1*1 + a2*4 + a2*8 + a3*16 + a4*32 + a5*64 + a6*128 + a7*255
+	
+	if x<42:
 	pygame.mixer.music.load("2.wav")
 	pygame.mixer.music.play()
 	while pygame.mixer.music.get_busy() == True:	
